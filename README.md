@@ -1,6 +1,9 @@
 # TableCheck Customer Reliability Take Home Project
 ## Project: Simple Weather API and Monitoring Integration
 
+> [!NOTE]
+> Apologies, I tried implementing Uptrace to monitor whether I've implemented the tracers correctly but to no avail.
+
 ### Installation
 1. Clone the repository 
 ```
@@ -43,7 +46,7 @@ OTEL_EXPORTER_OTLP_METRICS_TEMPORALITY_PREFERENCE=DELTA
 6. Run `rails server`
 
 ### Usage:
-Path: `/location/city`
+Path: `GET /location/city`
 
 Required Parameters:
 ```ruby
