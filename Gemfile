@@ -32,6 +32,14 @@ gem "bootsnap", require: false
 # OpenWeatherAPI wrapper
 gem "open-weather-ruby-client"
 
+# OpenTelemetry for automatic instrumentation 
+gem 'opentelemetry-sdk'
+gem 'opentelemetry-exporter-otlp'
+gem 'opentelemetry-instrumentation-all'
+
+# OpenTelemetry interface
+gem 'uptrace'
+
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri windows ]
